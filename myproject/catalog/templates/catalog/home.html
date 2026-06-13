@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block title %}Главная - Каталог товаров{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-12 text-center mb-5">
+            <h1 class="display-4">Добро пожаловать в наш каталог!</h1>
+            <p class="lead">Лучшие товары по лучшим ценам</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Широкий ассортимент</h5>
+                    <p class="card-text">Тысячи товаров в различных категориях</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Доставка по всей России</h5>
+                    <p class="card-text">Быстрая и удобная доставка</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Гарантия качества</h5>
+                    <p class="card-text">Все товары сертифицированы</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
