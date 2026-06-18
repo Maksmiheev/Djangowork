@@ -7,5 +7,5 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone <repository-url>
+git clone (https://github.com/Maksmiheev/Djangowork/tree/dev)
 cd my_django_project
