@@ -1,0 +1,14 @@
+[
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "name": "Смартфон",
+      "description": "Современный смартфон",
+      "category": 1,
+      "price": 25000.00,
+      "created_at": "2026-06-28T10:00:00Z",
+      "updated_at": "2026-06-28T10:00:00Z"
+    }
+  }
+]
